@@ -12,6 +12,7 @@ BOT_TOKEN: str = config.tg_bot.token
 
 # Создаем объекты бота и диспетчера
 bot = Bot(BOT_TOKEN)
+
 dp = Dispatcher()
 
 # Создаем "базу данных" пользователей
